@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KIT.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Fake News Detector Logo">
+            <h1>Fake News Detector</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger">☰</button>
+        <button class="theme-toggle">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h2>Verify News Authenticity Instantly</h2>
+        <p>Enter a news article or URL to check its authenticity.</p>
+        <input type="text" id="news-input" placeholder="Paste news text or URL here">
+        <button id="submit-btn">Check News</button>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results">
+        <h2>Analysis Result</h2>
+        <p>Status: <span id="news-status">-</span></p>
+        <p>Confidence Score: <span id="confidence-score">-</span></p>
+        <p>Explanation: <span id="explanation">-</span></p>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Enter a news article or URL.</li>
+            <li>Our system analyzes the content.</li>
+            <li>See the result with a confidence score.</li>
+        </ol>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Fake News Detector</h2>
+        <p>This tool helps users identify fake news using predefined logic and patterns.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input class="inputboxs" type="text" placeholder="Your Name" required><br>
+            <input class="inputboxs"  type="email" placeholder="Your Email" required><br>
+            <textarea  class="inputboxs" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Fake News Detector. All rights reserved.</p>
+        <p>Developed by Disha</p>
+    </footer>
+
+    <script src="script.js">
+ 
+  </script> <!-- External JavaScript -->
+</body>
+</html>
